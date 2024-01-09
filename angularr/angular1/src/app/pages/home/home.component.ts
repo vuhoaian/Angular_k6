@@ -4,6 +4,7 @@ import { FooterComponent } from '../../components/footer/footer.component';
 import { ProductCardComponent } from '../../components/product-card/product-card.component';
 import { NgFor } from '@angular/common';
 import { ProductService } from '../../services/product.service';
+import { Product } from '../../types/Product';
 
 @Component({
   selector: 'app-home',
@@ -13,8 +14,9 @@ import { ProductService } from '../../services/product.service';
   styleUrl: './home.component.css',
 })
 export class HomeComponent {
- productService = inject(ProductService);
- productList:any = [];
+ productService = inject(ProductService);// inject vao bien
+
+ productList:Product[]= [];
  ngOnInit() : void{
     this.productService
     .getProductList()
