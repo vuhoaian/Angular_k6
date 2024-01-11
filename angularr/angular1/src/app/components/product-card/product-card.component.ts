@@ -7,6 +7,6 @@ import { Component, Input } from '@angular/core';
   templateUrl: './product-card.component.html',
   styleUrl: './product-card.component.css',
 })
-export class ProductCardComponent {
+export class ProductCardComponent { 
   @Input() productChild: any;
 }
