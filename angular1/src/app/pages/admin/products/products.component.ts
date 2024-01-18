@@ -1,7 +1,6 @@
 import { Component, inject } from '@angular/core';
 import { NgFor } from '@angular/common';
 import { RouterLink } from '@angular/router';
-
 import { ProductAdmin } from '../../../types/Product';
 import { ProductService } from '../../../services/product.service'; // import services
 import { DescriptionPipe } from '../../../pipes/description.pipe';
