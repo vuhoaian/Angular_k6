@@ -47,3 +47,4 @@ ng g c [name] <br>
 - [target]="expression": <br>
   the html: src (img), href (a): [src]= "imgSrc" <br>
   component cha => con: [productChild] = "productParent" <br>
+hhh
